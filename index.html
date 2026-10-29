@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0c">
+  <meta name="description" content="Smajli Store — pažljivo odabrani proizvodi, jednostavna porudžbina i dostava širom Srbije.">
+  <title>Smajli Store | Pametna kupovina</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">Dostava širom Srbije · Jednostavno poručivanje</div>
+  <header class="site-header">
+    <a class="brand" href="#pocetna" aria-label="Smajli Store početna">
+      <span class="brand-mark">S<span>☺</span></span>
+      <span class="brand-name">SMAJLI <b>STORE</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Otvori meni" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#pocetna">Početna</a>
+      <a href="#proizvodi">Proizvodi</a>
+      <a href="#kako">Kako poručiti</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="header-cta" href="#proizvodi">Pogledaj ponudu <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="pocetna">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> DOBRODOŠLI U SMAJLI STORE</div>
+        <h1>Dobre stvari.<br><em>Bolja kupovina.</em></h1>
+        <p>Praktični proizvodi, pažljivo odabrana ponuda i jednostavna porudžbina — sve na jednom mestu.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proizvodi">Istraži proizvode <span>↗</span></a>
+          <a class="text-link" href="#kako">Kako funkcioniše <span>↓</span></a>
+        </div>
+        <div class="hero-proof">
+          <div class="proof-icon">✓</div>
+          <div><strong>Jednostavno poručivanje</strong><small>Javi nam se direktno ili pošalji upit</small></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-glow"></div>
+        <div class="hero-card hero-card-back"><span class="floating-label">ODABRANO ZA TEBE</span></div>
+        <div class="hero-product">
+          <div class="product-orbit orbit-one"></div><div class="product-orbit orbit-two"></div>
+          <div class="hero-product-icon">S<span>☺</span></div>
+          <div class="hero-product-bottom"><span>SMAJLI STORE</span><span>№ 001</span></div>
+        </div>
+        <div class="float-chip chip-top"><span class="chip-dot"></span> NOVA PONUDA</div>
+        <div class="float-chip chip-bottom"><span>✦</span> Praktično. Jednostavno. Tvoje.</div>
+      </div>
+    </section>
+
+    <section class="benefit-strip">
+      <div><span class="benefit-icon">↗</span><span><b>Pažljivo odabrano</b><small>Proizvodi za svaki dan</small></span></div>
+      <div><span class="benefit-icon">⌂</span><span><b>Dostava u Srbiji</b><small>Dogovor prilikom porudžbine</small></span></div>
+      <div><span class="benefit-icon">♡</span><span><b>Ličan pristup</b><small>Tu smo za sva pitanja</small></span></div>
+    </section>
+
+    <section class="products-section section" id="proizvodi">
+      <div class="section-heading">
+        <div><div class="eyebrow">NAŠA PONUDA</div><h2>Pronađi nešto <em>za sebe.</em></h2></div>
+        <p>Pregledaj proizvode i pošalji nam upit. Katalog je primer — lako možeš da promeniš slike, nazive i cene.</p>
+      </div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-category="Sve">Sve</button>
+        <button class="filter" data-category="Elektronika">Elektronika</button>
+        <button class="filter" data-category="Dodaci">Dodaci</button>
+        <button class="filter" data-category="Lifestyle">Lifestyle</button>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="catalog-note"><span>✦</span> Prikazani proizvodi i cene su primeri. Ažuriraj ih pre objavljivanja sajta.</div>
+    </section>
+
+    <section class="order-banner section" id="kako">
+      <div class="banner-mark">S<span>☺</span></div>
+      <div class="banner-copy"><div class="eyebrow">JEDNOSTAVNO I BRZO</div><h2>Video si nešto što ti se sviđa?</h2><p>Pošalji porudžbinu kroz obrazac ili nam se javi direktno. Potvrdićemo dostupnost, cenu dostave i detalje pre slanja.</p></div>
+      <a class="button button-light" href="#porudzbina">Poruči sada <span>↗</span></a>
+    </section>
+
+    <section class="steps-section section">
+      <div class="section-heading centered"><div><div class="eyebrow">KAKO FUNKCIONIŠE</div><h2>Od odabira do <em>isporuke.</em></h2></div></div>
+      <div class="steps-grid">
+        <article class="step"><span class="step-number">01</span><div class="step-icon">⌕</div><h3>Izaberi proizvod</h3><p>Pregledaj ponudu i pronađi ono što ti treba.</p></article>
+        <article class="step"><span class="step-number">02</span><div class="step-icon">✉</div><h3>Pošalji porudžbinu</h3><p>Popuni obrazac ili nam se javi putem poruke.</p></article>
+        <article class="step"><span class="step-number">03</span><div class="step-icon">↗</div><h3>Potvrda i slanje</h3><p>Dogovaramo dostupnost, dostavu i način plaćanja.</p></article>
+      </div>
+    </section>
+
+    <section class="order-section section" id="porudzbina">
+      <div class="order-intro">
+        <div class="eyebrow">PORUČI / POŠALJI UPIT</div>
+        <h2>Hajde da pronađemo <em>pravu stvar.</em></h2>
+        <p>Popuni podatke i otvoriće se gotova poruka za slanje mejlom. Pre slanja proveri da li su podaci tačni.</p>
+        <div class="contact-mini"><span class="mini-icon">✉</span><div><b>Piši nam</b><small>Unesi svoju poslovnu mejl adresu u podešavanjima sajta.</small></div></div>
+        <div class="contact-mini"><span class="mini-icon">▣</span><div><b>Javi se direktno</b><small>WhatsApp broj se podešava u fajlu script.js.</small></div></div>
+      </div>
+      <form class="order-form" id="orderForm">
+        <div class="form-heading"><h3>Pošalji porudžbinu</h3><span>Polja sa * su obavezna</span></div>
+        <div class="form-row">
+          <label>Ime i prezime *<input name="name" required autocomplete="name" placeholder="Kako se zoveš?"></label>
+          <label>Telefon *<input name="phone" required autocomplete="tel" inputmode="tel" placeholder="06x xxx xxxx"></label>
+        </div>
+        <label>Izaberi proizvod *
+          <select name="product" id="orderProduct" required><option value="">Prvo izaberi proizvod</option></select>
+        </label>
+        <label>Adresa za dostavu<input name="address" autocomplete="street-address" placeholder="Ulica, broj, mesto (ako želiš dostavu)"></label>
+        <label>Poruka (opciono)<textarea name="message" rows="3" placeholder="Pitanje, količina ili dodatne informacije..."></textarea></label>
+        <label class="consent"><input type="checkbox" required> <span>Potvrđujem da su uneti podaci tačni i saglasan/saglasna sam da me kontaktirate povodom upita.</span></label>
+        <button class="button button-primary submit-button" type="submit">Pripremi porudžbinu <span>↗</span></button>
+        <p class="form-small">Ovaj obrazac otvara mejl aplikaciju na tvom uređaju; ne čuva automatski podatke na sajtu.</p>
+        <div class="form-status" id="formStatus" role="status"></div>
+      </form>
+    </section>
+
+    <section class="contact-section section" id="kontakt">
+      <div><div class="eyebrow">TU SMO ZA TEBE</div><h2>Imaš pitanje? <em>Javi nam se.</em></h2><p>Za dostupnost proizvoda, dostavu i ostale informacije — kontaktiraj Smajli Store.</p></div>
+      <div class="contact-actions">
+        <a class="button button-primary" id="emailLink" href="mailto:unesi-email@example.com">Pošalji mejl <span>↗</span></a>
+        <a class="button button-outline" id="whatsappLink" href="#" target="_blank" rel="noopener">WhatsApp poruka <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#pocetna"><span class="brand-mark">S<span>☺</span></span><span class="brand-name">SMAJLI <b>STORE</b></span></a>
+    <p>Pažljivo odabrano. Jednostavno poručeno.</p>
+    <div class="footer-links"><a href="#proizvodi">Proizvodi</a><a href="#kontakt">Kontakt</a><a href="#uslovi" id="termsLink">Informacije o kupovini</a></div>
+    <small>© <span id="year"></span> Smajli Store. Sva prava zadržana.</small>
+  </footer>
+
+  <dialog id="productDialog" class="product-dialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Zatvori">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
