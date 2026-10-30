@@ -1,24 +1,17 @@
-SMAJLI STORE — novi fajlovi
+SMAJLI STORE — PREMIUM VERZIJA
+
+Kako da pokreneš sajt:
+1. Raspakuj ZIP fajl u novi folder.
+2. Otvori index.html dvoklikom da pregledaš sajt.
+3. Za GitHub Pages postavi SVE fajlove iz ovog foldera u root repozitorijuma.
 
 Fajlovi:
-- index.html
-- style.css
-- script.js
-- pafovi.html
-- parfemi.html
-- airpods.html
+- index.html — početna strana
+- pafovi.html — stranica kategorije Pafovi
+- parfemi.html — stranica kategorije Parfemi
+- airpods.html — stranica kategorije AirPods
+- style.css — premium crno-zlatni dizajn i responsive izgled
+- script.js — meni, izbor varijanti i kontakt linkovi
 
-Kako da postaviš na GitHub:
-1. Otvori postojeći repository.
-2. Zameni postojeće index.html, style.css i script.js ovim verzijama.
-3. Dodaj tri nova fajla: pafovi.html, parfemi.html i airpods.html.
-4. Sačuvaj/commituj izmene.
-
-Email za upite je podešen na aleksa.ismail032@gmail.com.
-WhatsApp broj je zadržan iz starog koda i samo je normalizovan da wa.me link radi.
-
-Napomena:
-- Slike se učitavaju sa Unsplash-a preko interneta.
-- Varijante parfema i AirPods modela su početne opcije; proveri da odgovaraju stvarnoj ponudi pre objave.
-- Pafovi stranica je informativna i sadrži napomenu o punoletstvu i proveri lokalnih propisa.
-- Obrazac otvara mejl aplikaciju korisnika (mailto); ne šalje email direktno sa servera i ne čuva podatke.
+Napomena: fotografije se učitavaju sa Unsplash CDN-a, a fontovi sa Google Fonts-a, pa je za njih potreban internet.
+Kontakt podaci i postojeći način slanja upita su sačuvani. Forma priprema mejl kroz mail aplikaciju; ne šalje mejl automatski sa sajta.
