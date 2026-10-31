@@ -1,4 +1,4 @@
-SMAJLI STORE — NOVA VERZIJA
+SMAJLISTORE—PAFOVISREĐENO
 
 U ZIP-u su:
 index.html
@@ -7,6 +7,8 @@ script.js
 pafovi.html
 parfemi.html
 airpods.html
+
+Izmena: kategorija PAFOVI sada ima fotografiju vape uređaja na početnoj stranici i na svojoj stranici.
 
 POSTAVLJANJE:
 1. Raspakuj ZIP.
