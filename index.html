@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Smajli Store — pažljivo odabrana ponuda i jednostavan upit.">
-  <title>Smajli Store | Premium izbor</title>
+  <meta name="description" content="Smajli Store — pažljivo odabrana ponuda.">
+  <title>Smajli Store — Izbor sa stilom</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
@@ -12,66 +12,57 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="announcement">SMAJLI STORE <span>•</span> Jednostavno. Pažljivo. Sa stilom.</div>
-  <header class="site-header">
-    <a class="brand" href="index.html" aria-label="Smajli Store početna">
-      <span class="brand-icon"><span>S</span></span>
-      <span class="brand-wordmark">SMAJLI <b>STORE</b></span>
+  <div class="topline"><span>SMAJLI STORE</span><i>•</i> DOBRODOŠLI U NAŠU PRODAVNICU</div>
+  <header class="header">
+    <a class="brand" href="index.html" aria-label="Smajli Store">
+      <svg class="brand-bag" viewBox="0 0 48 52" aria-hidden="true"><path d="M8 17h32l3 31H5l3-31Z"/><path d="M16 18v-5a8 8 0 0 1 16 0v5"/><path class="bag-s" d="M29 27c-1.2-2-8-2.2-9 .6-1.4 3 8.8 3 8 6.4-.8 3.2-8.4 3.2-10.5.7"/></svg>
+      <span class="brand-type">SMAJLI <b>STORE</b></span>
     </a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Otvori meni" aria-expanded="false"><i></i><i></i></button>
-    <nav class="main-nav" id="mainNav">
-      <a href="#kategorije">Kategorije</a><a href="#kako">Kako poručiti</a><a href="#kontakt">Kontakt</a>
-    </nav>
-    <a class="header-cta" href="#kategorije">Pogledaj ponudu <span>↗</span></a>
+    <button class="menu-button" id="menuToggle" aria-label="Otvori meni" aria-expanded="false"><span></span><span></span></button>
+    <nav id="mainNav"><a href="#kategorije">Kategorije</a><a href="#prednosti">Zašto Smajli</a><a href="#kontakt">Kontakt</a></nav>
+    <a class="header-link" href="#kategorije">ISTRAŽI PONUDU <span>↗</span></a>
   </header>
 
   <main>
-    <section class="hero wrap">
-      <div class="hero-copy">
-        <p class="eyebrow"><span></span> DOBRODOŠLI U SMAJLI STORE</p>
-        <h1>Detalji koji prave <em>razliku.</em></h1>
-        <p class="hero-lead">Istraži naš izbor i pronađi ono što ti odgovara. Jednostavan pregled, brz upit i direktna komunikacija.</p>
-        <div class="hero-actions"><a class="btn btn-gold" href="#kategorije">Istraži kategorije <span>→</span></a><a class="text-link" href="#kontakt">Kontaktiraj nas</a></div>
-        <div class="hero-note"><span class="note-line"></span><span>Pažljivo odabrano. Uvek uz lični pristup.</span></div>
+    <section class="hero shell">
+      <div class="hero-text">
+        <div class="kicker"><span></span> SMAJLI STORE / ONLINE SELECTION</div>
+        <h1>Pronađi svoj<br><em>sledeći favorit.</em></h1>
+        <p>Dobrodošao u Smajli Store — mesto gde možeš da istražiš naš izbor, pronađeš ono što ti odgovara i lako nam pošalješ upit.</p>
+        <div class="hero-buttons"><a class="gold-button" href="#kategorije">PREGLEDAJ KATEGORIJE <b>→</b></a><a class="under-link" href="#kontakt">Kontaktiraj nas</a></div>
+        <div class="hero-foot"><span class="tiny-rule"></span> PAŽLJIVO ODABRANO. JEDNOSTAVNO ZA TEBE.</div>
       </div>
-      <div class="hero-art" aria-label="Dekorativni prikaz Smajli Store brenda">
-        <div class="art-glow"></div><div class="art-frame">
-          <div class="art-top"><span>SS / EST.</span><span>PREMIUM SELECTION</span></div>
-          <div class="art-emblem"><span>S</span></div>
-          <div class="art-bottom"><strong>SMAJLI STORE</strong><small>THE DETAILS MATTER</small></div>
-        </div>
-        <div class="floating-tag">CURATED<br><b>FOR YOU</b></div>
+      <div class="hero-visual">
+        <div class="hero-image"></div>
+        <div class="hero-shade"></div>
+        <div class="hero-stamp"><svg viewBox="0 0 48 52"><path d="M8 17h32l3 31H5l3-31Z"/><path d="M16 18v-5a8 8 0 0 1 16 0v5"/><path class="bag-s" d="M29 27c-1.2-2-8-2.2-9 .6-1.4 3 8.8 3 8 6.4-.8 3.2-8.4 3.2-10.5.7"/></svg><span>SMAJLI<br><b>STORE</b></span></div>
+        <div class="visual-caption"><span>01 — THE COLLECTION</span><span>EST. SMAJLI STORE</span></div>
       </div>
     </section>
 
-    <section class="trust-strip"><div class="wrap trust-inner"><div><b>01</b><span>Jednostavan upit</span></div><div><b>02</b><span>Direktan kontakt</span></div><div><b>03</b><span>Podrška pri izboru</span></div></div></section>
+    <section class="benefits" id="prednosti"><div class="shell benefits-row"><div><b>01</b><span>Jednostavan upit</span></div><div><b>02</b><span>Direktna komunikacija</span></div><div><b>03</b><span>Pomoć pri izboru</span></div></div></section>
 
-    <section class="section wrap" id="kategorije">
-      <div class="section-heading"><div><p class="eyebrow"><span></span> ISTRAŽI PONUDU</p><h2>Naše <em>kategorije</em></h2></div><p>Izaberi kategoriju i otvori stranicu sa dodatnim informacijama.</p></div>
-      <div class="category-grid">
-        <a class="category-card" href="parfemi.html">
-          <div class="category-image"><img src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1000&q=85" alt="Elegantne bočice parfema"><span class="image-index">01 / 03</span><span class="image-arrow">↗</span></div>
-          <div class="category-info"><div><small>KATEGORIJA 01</small><h3>Parfemi</h3><p>Pronađi mirisni profil koji ti odgovara.</p></div><span class="category-go">→</span></div>
+    <section class="categories shell" id="kategorije">
+      <div class="section-head"><div><div class="kicker"><span></span> IZABERI ŠTA TE ZANIMA</div><h2>Naša <em>ponuda.</em></h2></div><p>Istraži kategorije i otvori stranicu za više informacija.</p></div>
+      <div class="category-list">
+        <a class="category" href="pafovi.html">
+          <div class="category-photo"><img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1100&q=85" alt="Apstraktni talasi i voda"><span class="photo-number">01 / 03</span><span class="photo-action">↗</span><span class="photo-word">PAFOVI</span></div>
+          <div class="category-meta"><div><small>KATEGORIJA 01</small><h3>Pafovi</h3><p>Informativni pregled kategorije.</p></div><b>↗</b></div>
         </a>
-        <a class="category-card" href="airpods.html">
-          <div class="category-image"><img src="https://images.unsplash.com/photo-1608156639585-b3a032ef9689?auto=format&fit=crop&w=1000&q=85" alt="Bežične slušalice"><span class="image-index">02 / 03</span><span class="image-arrow">↗</span></div>
-          <div class="category-info"><div><small>KATEGORIJA 02</small><h3>AirPods slušalice</h3><p>Pregled modela i pomoć pri izboru.</p></div><span class="category-go">→</span></div>
+        <a class="category" href="parfemi.html">
+          <div class="category-photo"><img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1100&q=85" alt="Luksuzna bočica parfema"><span class="photo-number">02 / 03</span><span class="photo-action">↗</span></div>
+          <div class="category-meta"><div><small>KATEGORIJA 02</small><h3>Parfemi</h3><p>Mirisni profili i informacije.</p></div><b>↗</b></div>
         </a>
-        <a class="category-card" href="pafovi.html">
-          <div class="category-image category-neutral"><img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=85" alt="Mirna apstraktna tekstura vode i talasa"><span class="image-index">03 / 03</span><span class="image-arrow">↗</span><div class="neutral-label">INFORMACIJE</div></div>
-          <div class="category-info"><div><small>KATEGORIJA 03</small><h3>Pafovi</h3><p>Informativna stranica i odgovori na pitanja.</p></div><span class="category-go">→</span></div>
+        <a class="category" href="airpods.html">
+          <div class="category-photo"><img src="https://images.unsplash.com/photo-1603351154351-5e2d0600bb77?auto=format&fit=crop&w=1100&q=85" alt="Bežične slušalice i audio oprema"><span class="photo-number">03 / 03</span><span class="photo-action">↗</span></div>
+          <div class="category-meta"><div><small>KATEGORIJA 03</small><h3>AirPods slušalice</h3><p>Pregled modela i pomoć pri izboru.</p></div><b>↗</b></div>
         </a>
       </div>
     </section>
 
-    <section class="order-band"><div class="wrap order-inner"><div><p class="eyebrow"><span></span> TREBA TI POMOĆ?</p><h2>Tu smo da ti <em>pomognemo.</em></h2><p>Pošalji nam upit i javićemo ti se sa dodatnim informacijama.</p></div><a class="btn btn-outline" href="#kontakt">Pošalji upit <span>→</span></a></div></section>
+    <section class="statement"><div class="shell statement-inner"><div><div class="kicker"><span></span> SMAJLI STORE</div><h2>Dobar izbor počinje<br><em>dobrim osećajem.</em></h2></div><a class="outline-button" href="#kontakt">STUPI U KONTAKT <b>→</b></a></div></section>
 
-    <section class="section wrap how-section" id="kako"><div class="section-heading"><div><p class="eyebrow"><span></span> JEDNOSTAVNO U TRI KORAKA</p><h2>Kako <em>funkcioniše?</em></h2></div></div>
-      <div class="steps"><article><b>01</b><h3>Izaberi kategoriju</h3><p>Otvori kategoriju koja te zanima i pogledaj dostupne informacije.</p></article><article><b>02</b><h3>Pošalji upit</h3><p>Popuni kratku formu sa svojim kontakt podacima i pitanjem.</p></article><article><b>03</b><h3>Čekaj odgovor</h3><p>Javićemo ti se direktno putem mejla ili telefona.</p></article></div>
-    </section>
-
-    <section class="contact-section" id="kontakt"><div class="wrap contact-inner"><div><p class="eyebrow"><span></span> OSTANIMO U KONTAKTU</p><h2>Imaš pitanje?<br><em>Piši nam.</em></h2><p>Za informacije i upite možeš nas kontaktirati direktno.</p></div><div class="contact-card"><small>EMAIL ADRESA</small><a href="mailto:aleksa.ismail032@gmail.com">aleksa.ismail032@gmail.com</a><div class="contact-divider"></div><small>WHATSAPP</small><a href="https://wa.me/381640384603" target="_blank" rel="noopener">Pošalji WhatsApp poruku ↗</a></div></div></section>
+    <section class="contact shell" id="kontakt"><div><div class="kicker"><span></span> TU SMO ZA TEBE</div><h2>Imaš pitanje?<br><em>Piši nam.</em></h2><p>Za informacije i upite možeš nam se javiti direktno.</p></div><div class="contact-box"><small>EMAIL</small><a href="mailto:aleksa.ismail032@gmail.com">aleksa.ismail032@gmail.com</a><hr><small>WHATSAPP</small><a href="https://wa.me/381640384603" target="_blank" rel="noopener">Pošalji poruku ↗</a></div></section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand" href="index.html"><span class="brand-icon"><span>S</span></span><span class="brand-wordmark">SMAJLI <b>STORE</b></span></a><p>© <span id="year"></span> Smajli Store. Sva prava zadržana.</p><a href="#kontakt">Kontakt ↗</a></div></footer>
-</body>
-</html>
+  <footer><div class="shell footer-row"><a class="brand" href="index.html"><svg class="brand-bag" viewBox="0 0 48 52"><path d="M8 17h32l3 31H5l3-31Z"/><path d="M16 18v-5a8 8 0 0 1 16 0v5"/><path class="bag-s" d="M29 27c-1.2-2-8-2.2-9 .6-1.4 3 8.8 3 8 6.4-.8 3.2-8.4 3.2-10.5.7"/></svg><span class="brand-type">SMAJLI <b>STORE</b></span></a><p>© <span id="year"></span> Smajli Store. Sva prava zadržana.</p><a href="#kontakt">KONTAKT ↗</a></div></footer>
+</body></html>

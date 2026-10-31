@@ -1,24 +1,20 @@
-SMAJLI STORE — PREMIUM WEBSITE
+SMAJLI STORE — NOVA VERZIJA
 
-SADRŽAJ:
-- index.html
-- style.css
-- script.js
-- pafovi.html
-- parfemi.html
-- airpods.html
+U ZIP-u su:
+index.html
+style.css
+script.js
+pafovi.html
+parfemi.html
+airpods.html
 
-KAKO DA POSTAVIŠ NA GITHUB:
-1. Raspakuj ZIP na računaru.
-2. Otvori svoj GitHub repository.
-3. Uđi u glavni (root) folder projekta.
-4. Obriši stare verzije ovih šest fajlova ili ih zameni novim.
-5. Uploaduj svih šest novih fajlova u isti glavni folder.
-6. Klikni Commit changes i sačekaj da se GitHub Pages osveži.
+POSTAVLJANJE:
+1. Raspakuj ZIP.
+2. U GitHub repository Smajli-Store-032 zameni ovih šest fajlova u glavnom folderu.
+3. Klikni Commit changes.
+4. Sačekaj 1-3 minuta, pa na sajtu uradi Ctrl + F5.
 
-VAŽNO:
-- Kontakt mejl je aleksa.ismail032@gmail.com.
-- WhatsApp broj je podešen na 381640384603.
-- Forma priprema mejl kroz podrazumevanu mejl aplikaciju korisnika (mailto); korisnik mora da potvrdi slanje u svojoj mejl aplikaciji.
-- Fotografije se učitavaju sa Unsplash-a i zahtevaju internet konekciju.
-- Pafovi stranica koristi neutralnu, informativnu fotografiju umesto fotografije parfema.
+Kontakt mejl: aleksa.ismail032@gmail.com
+WhatsApp: 381640384603
+
+Napomena: Fotografije se učitavaju sa Unsplash-a, pa je potrebna internet konekcija. Kontakt forme otvaraju mejl aplikaciju i korisnik potvrđuje slanje.
