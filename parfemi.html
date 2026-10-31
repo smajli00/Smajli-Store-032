@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="sr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parfemi | Smajli Store</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head>
+<body data-category-page="parfemi">
+<div class="announcement">SMAJLI STORE <span>•</span> Jednostavno. Pažljivo. Sa stilom.</div>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-icon"><span>S</span></span><span class="brand-wordmark">SMAJLI <b>STORE</b></span></a>
+<button class="menu-toggle" id="menuToggle" aria-label="Otvori meni" aria-expanded="false"><i></i><i></i></button>
+<nav class="main-nav" id="mainNav"><a href="index.html#kategorije">Kategorije</a><a href="index.html#kako">Kako poručiti</a><a href="index.html#kontakt">Kontakt</a></nav><a class="header-cta" href="index.html#kontakt">Kontakt <span>↗</span></a></header>
+<main><section class="wrap detail-hero"><div><p class="eyebrow"><span></span> KATEGORIJA 01</p><h1>Pronađi svoj <em>miris.</em></h1><p>Istraži različite mirisne profile i pošalji nam upit ako ti treba pomoć pri izboru.</p><a class="btn btn-gold" href="#upit">Pošalji upit <span>→</span></a></div><div class="detail-photo"><img src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1200&q=85" alt="Elegantne bočice parfema"></div></section>
+<section class="wrap detail-content"><p class="eyebrow"><span></span> DODATNE INFORMACIJE</p><h2>Kako možemo da pomognemo?</h2><p class="detail-intro">Izaberi opciju koja te zanima ili nam ostavi poruku. Javićemo ti se sa dodatnim informacijama.</p>
+<div class="variant-grid" id="variantGrid"></div>
+<form class="detail-form" id="detailForm"><h3 id="upit">Pošalji nam upit</h3><div class="form-grid">
+<div class="field"><label for="name">Ime i prezime *</label><input id="name" name="name" required autocomplete="name" placeholder="Tvoje ime"></div>
+<div class="field"><label for="phone">Broj telefona *</label><input id="phone" name="phone" required autocomplete="tel" placeholder="+381..."></div>
+<div class="field full"><label for="variantSelect">Izabrana opcija *</label><select id="variantSelect" name="variant" required><option value="">Izaberi opciju</option></select></div>
+<div class="field full"><label for="message">Poruka</label><textarea id="message" name="message" placeholder="Napiši nam šta te zanima..."></textarea></div></div>
+<label class="consent"><input type="checkbox" required><span>Potvrđujem da su uneti podaci tačni i saglasan/saglasna sam da me Smajli Store kontaktira povodom ovog upita.</span></label>
+<button class="btn btn-gold" type="submit">Nastavi na slanje mejla <span>→</span></button><p class="form-status" id="formStatus" aria-live="polite"></p></form></section></main>
+<footer class="site-footer"><div class="wrap footer-inner"><a class="brand" href="index.html"><span class="brand-icon"><span>S</span></span><span class="brand-wordmark">SMAJLI <b>STORE</b></span></a><p>© <span id="year"></span> Smajli Store. Sva prava zadržana.</p><a href="index.html">Početna ↗</a></div></footer></body></html>
